@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpStellaKirinuki", "FtpStellaKirinuki\FtpStellaKirinuki.csproj", "{21BBB330-FF03-4556-9AA3-8C7B6CFCA6EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BBB330-FF03-4556-9AA3-8C7B6CFCA6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BBB330-FF03-4556-9AA3-8C7B6CFCA6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BBB330-FF03-4556-9AA3-8C7B6CFCA6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BBB330-FF03-4556-9AA3-8C7B6CFCA6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
