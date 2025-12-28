@@ -211,7 +211,7 @@ public class Program
         var types = Enum.GetValues<ChannelType>();
 
         var names = types
-            .Select(t => ChannelTypeExtensions.GetColoredName(t))
+            .Select(t => t.GetColoredName())
             .Append("(취소)")
             .ToList();
 
@@ -224,7 +224,7 @@ public class Program
             return;
 
         var selectedType = types
-            .First(t => ChannelTypeExtensions.Names[t] == selectedName);
+            .First(t => t.GetColoredName() == selectedName);
 
         AnsiConsole.MarkupLine($"\n[bold green]{selectedName} 채널이 선택되었습니다![/]\n");
 
